@@ -1,6 +1,6 @@
-# Iris Wallet
+# Bitwallet
 
-Iris Wallet manages RGB assets from issuance to spending and receiving,
+Bit Wallet manages RGB assets from issuance to spending and receiving,
 wrapping all functionality in a familiar-looking wallet application and
 abstracting away as many technical details as possible.
 
