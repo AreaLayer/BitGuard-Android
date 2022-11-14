@@ -1,4 +1,4 @@
-# Bitwallet
+# BitGuard
 
 Bit Wallet manages RGB assets from issuance to spending and receiving,
 wrapping all functionality in a familiar-looking wallet application and
