@@ -125,3 +125,10 @@ jarsigner -keystore ~/android-keystores/iriswallet.jks app/build/outputs/bundle/
 [bdk-kotlin]: https://github.com/bitcoindevkit/bdk-kotlin
 [rgb-lib]: https://github.com/RGB-Tools/rgb-lib
 [rgb-lib-kotlin]: https://github.com/RGB-Tools/rgb-lib-kotlin
+
+## To-Do
+
+- [ ] Testnet
+- [ ] Mainnet
+- [ ] Fees
+- [ ] UI 
