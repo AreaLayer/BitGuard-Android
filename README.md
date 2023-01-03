@@ -132,3 +132,4 @@ jarsigner -keystore ~/android-keystores/iriswallet.jks app/build/outputs/bundle/
 - [x] Mainnet
 - [x] Fees
 - [x] UI 
+- [ ] RGBdex
