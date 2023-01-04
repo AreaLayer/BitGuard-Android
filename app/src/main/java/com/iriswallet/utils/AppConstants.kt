@@ -2,7 +2,7 @@ package com.iriswallet.utils
 
 // Constants shared across the whole app
 object AppConstants {
-    const val appDBName = "iris_wallet_db"
+    const val appDBName = "bitguard_wallet_db"
     const val bdkDirName = ".bdk"
     const val rgbDirName = ".rgb"
     const val sharedPreferencesName = "shared_prefs"
