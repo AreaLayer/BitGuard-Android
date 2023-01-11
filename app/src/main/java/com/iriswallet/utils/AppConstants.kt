@@ -53,10 +53,10 @@ object AppConstants {
             "https://rgb-faucet.rgbtools.org/mainnet/",
         )
 
-    const val privacyPolicyURL = "https://iriswallet.com/privacy_policy.html"
+    const val privacyPolicyURL = ""
 
-    const val testnetTermsOfServiceURL = "https://iriswallet.com/testnet/terms_of_service.html"
-    const val mainnetTermsOfServiceURL = "https://iriswallet.com/mainnet/terms_of_service.html"
+    const val testnetTermsOfServiceURL = ""
+    const val mainnetTermsOfServiceURL = ""
 
     const val bdkTimeout = 5
     const val bdkRetry = 3
