@@ -8,7 +8,7 @@ object AppConstants {
     const val sharedPreferencesName = "shared_prefs"
     const val encryptedSharedPreferencesName = "secret_shared_prefs"
 
-    const val maxAssets = 50
+    const val maxAssets = 100
     const val satsForRgb = 9000UL
     const val feeForAreaLayer = 1000
     const val rgbBlindDuration = 86400U
