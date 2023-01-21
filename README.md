@@ -18,8 +18,8 @@ BitGuard is a wallet based Iris wallet with focus in:
 
 # Resources
 
-The RGB functionality is provided by [rgb-lib] via [rgb-lib-kotlin], while the
-Bitcoin functionality is provided by [bdk-kotlin].
+The RGB functionality is provided by rgb-lib via rgb-lib-kotlin, the
+Bitcoin functionality is provided by bdk-kotlin and Lightning Network is LNP-Core and descriptor-wallet
 
 ## To-Do
 
