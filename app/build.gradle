@@ -16,10 +16,10 @@ android {
   compileSdk 33
 
   defaultConfig {
-    applicationId 'com.iriswallet'
+    applicationId 'com.bitgaurd'
     minSdk 26
     targetSdk 33
-    versionCode 18
+    versionCode 31
     versionName '0.1.1'
     ndk {
       abiFilters 'x86_64', 'arm64-v8a', 'armeabi-v7a'
