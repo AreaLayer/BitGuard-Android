@@ -2,13 +2,13 @@
 
 BitGuard is a wallet based Iris wallet with focus in:
 
--Mint, send and receive (RGB 20/RGB 21)
+- Mint, send and receive (RGB 20/RGB 21)
 
--Lightning Network support (LNP from LNP-BP Association)
+- Lightning Network support (LNP from LNP-BP Association)
 
--UTXO (blinded)
+- UTXO (blinded)
 
--Fees for Mint RGB20 /RGB21
+- Fees for Mint RGB20 /RGB21
 
 - Price Feed (BTC/USDT)
 
