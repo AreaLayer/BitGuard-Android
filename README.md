@@ -14,9 +14,11 @@ BitGuard is a wallet based Iris wallet with focus in:
 
 - RGBdex, Exchange Decentralized with AMM integration
 
+# Resources
+
 The RGB functionality is provided by [rgb-lib] via [rgb-lib-kotlin], while the
 Bitcoin functionality is provided by [bdk-kotlin].
-```
+
 ## To-Do
 
 - [x] Testnet
