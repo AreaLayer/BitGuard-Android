@@ -9,7 +9,7 @@ import com.iriswallet.data.SharedPreferencesManager
 import com.iriswallet.utils.AppConstants
 import com.iriswallet.utils.AppContainer
 
-class BitWallet : Application() {
+class Bitguard : Application() {
 
     override fun onCreate() {
         super.onCreate()

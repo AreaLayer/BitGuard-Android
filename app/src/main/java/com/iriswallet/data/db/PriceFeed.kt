@@ -1,3 +1,8 @@
+package com.iriswallet.data.db
+
+import okhttp3.OkHttpClient
+import okhttp3.Request
+
 val client = OkHttpClient()
 
 val request = Request.Builder()

@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.iriswallet.ui
 
 import android.content.Intent
@@ -58,10 +60,13 @@ class TransferDetailFragment :
                             true
                         }
                         android.R.id.home -> {
-                            mActivity.onBackPressed()
+                            mActivity.onBackPressed{
+                            }
                             true
                         }
-                        else -> true
+                        else -> {
+                            true
+                        }
                     }
                 }
             },

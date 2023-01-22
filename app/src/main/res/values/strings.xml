@@ -98,7 +98,7 @@
     <!-- layout strings -->
     <string name="asset_id_label">Asset ID</string>
     <string name="receive_button">Receive</string>
-    <string name="request">Request</string>
+    <string name="com.iriswallet.data.db.request">Request</string>
     <string name="flashlight_icon_description">Toggle flashlight</string>
     <string name="wallet_icon_description">Wallet icon</string>
     <string name="collectible_image_description">Collectible image</string>
