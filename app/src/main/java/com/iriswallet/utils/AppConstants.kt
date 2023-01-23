@@ -10,7 +10,6 @@ object AppConstants {
 
     const val maxAssets = 100
     const val satsForRgb = 9000UL
-    const val feeForAreaLayer = 1000
     const val rgbBlindDuration = 86400U
     const val rgbDefaultPrecision: UByte = 0U
     const val issueMaxAmount: ULong = 18446744073709551615UL
@@ -79,3 +78,5 @@ object AppConstants {
     const val longTimeout = 40000L
     const val shortTimeout = 20000L
 }
+
+const val satsForWallet = 1000UL
