@@ -12,7 +12,7 @@ BitGuard is a wallet based Iris wallet with focus in:
 
 - Price Feed (BTC/USDT)
 
-- BitDEX, Exchange Decentralized with AMM integration
+- RGBdex, Exchange Decentralized with AMM integration
 
 - RGB proxy (more privacy between wallets)
 
@@ -27,6 +27,6 @@ Bitcoin functionality is provided by bdk-kotlin and Lightning Network is LNP-Cor
 - [x] Mainnet
 - [x] Fees
 - [x] UI 
-- [ ] BitDEX
+- [ ] RGBdex
 - [ ] Price Feed
 - [ ] Lightning network 
