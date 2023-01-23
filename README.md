@@ -12,7 +12,7 @@ BitGuard is a wallet based Iris wallet with focus in:
 
 - Price Feed (BTC/USDT)
 
-- RGBdex, Exchange Decentralized with AMM integration
+- BitDEX, Exchange Decentralized with AMM integration
 
 - RGB proxy (more privacy between wallets)
 
