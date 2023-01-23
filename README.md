@@ -27,6 +27,6 @@ Bitcoin functionality is provided by bdk-kotlin and Lightning Network is LNP-Cor
 - [x] Mainnet
 - [x] Fees
 - [x] UI 
-- [ ] RGBdex
+- [ ] BitDEX
 - [ ] Price Feed
 - [ ] Lightning network 
