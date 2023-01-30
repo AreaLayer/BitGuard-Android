@@ -182,3 +182,7 @@ class TransferDetailFragment :
         binding.transferPB.visibility = View.VISIBLE
     }
 }
+
+private fun MainActivity.onBackPressed(fuction: () -> Unit) {
+
+}
