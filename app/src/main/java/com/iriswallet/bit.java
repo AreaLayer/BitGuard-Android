@@ -2,5 +2,5 @@ package com.iriswallet;
 
 import android.app.Application;
 
-public class bit extends Application bit guard{
+public class bit extends Application bitguard{
 }

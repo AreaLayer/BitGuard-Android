@@ -284,4 +284,8 @@ object AppRepository {
         }
         return asset
     }
+
+    fun providerType(): RgbAsset {
+        val providerType=
+    }
 }
