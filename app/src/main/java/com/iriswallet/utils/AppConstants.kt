@@ -13,6 +13,8 @@ object AppConstants {
     const val rgbBlindDuration = 86400U
     const val rgbDefaultPrecision: UByte = 0U
     const val issueMaxAmount: ULong = 18446744073709551615UL
+    const val minAssets = 1
+    const val Lp = 1
 
     const val coloredWallet = "colored"
     const val vanillaWallet = "vanilla"
@@ -24,9 +26,9 @@ object AppConstants {
 
     const val proxyURL = "https://proxy.rgbtools.org"
 
-    const val signetElectrumURL = "ssl://electrum.rgbtools.org:50032"
-    const val testnetElectrumURL = "ssl://electrum.rgbtools.org:50012"
-    const val mainnetElectrumURL = "ssl://electrum.rgbtools.org:50002"
+    const val signetElectrumURL = ""
+    const val testnetElectrumURL = ""
+    const val mainnetElectrumURL = ""
 
     const val signetExplorerURL = "https://mempool.space/signet/tx/"
     const val testnetExplorerURL = "https://mempool.space/testnet/tx/"
