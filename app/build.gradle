@@ -19,13 +19,19 @@ android {
     applicationId 'com.bitgaurd'
     minSdk 26
     targetSdk 33
-    versionCode 31
-    versionName '0.1.1'
+    versionCode 42
+    versionName '0.1.5'
     ndk {
       abiFilters 'x86_64', 'arm64-v8a', 'armeabi-v7a'
     }
     testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
   }
+  packagingOptions {
+    jniLibs {
+      useLegacyPackaging true
+    }
+  }
+
 
   externalNativeBuild {
     cmake {
@@ -150,20 +156,20 @@ dependencies {
   implementation "androidx.room:room-ktx:$room_version"
   ksp "androidx.room:room-compiler:$room_version"
 
-  implementation 'androidx.security:security-crypto-ktx:1.1.0-alpha03'
+  implementation 'androidx.security:security-crypto-ktx:1.1.0-alpha05'
 
   implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
 
   // Bitcoindevkit
-  implementation 'org.bitcoindevkit:bdk-android:0.9.0'
+  implementation 'org.bitcoindevkit:bdk-android:0.11.0'
 
   // Github
   implementation 'com.github.lelloman:android-identicons:v11'
 
   // Google
-  implementation 'com.google.android.gms:play-services-auth:20.3.0'
+  implementation 'com.google.android.gms:play-services-auth:20.4.1'
 
-  implementation 'com.google.android.material:material:1.7.0'
+  implementation 'com.google.android.material:material:1.8.0'
 
   implementation 'com.google.code.gson:gson:2.9.0'
 
@@ -171,7 +177,7 @@ dependencies {
   implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
 
   // RGB-Tools
-  implementation 'org.rgbtools:rgb-lib-android:0.1.2'
+  implementation 'org.rgbtools:rgb-lib-android:0.1.6'
 
   // Squareup
   implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
