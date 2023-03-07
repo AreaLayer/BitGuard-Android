@@ -14,7 +14,6 @@ object AppConstants {
     const val rgbDefaultPrecision: UByte = 0U
     const val issueMaxAmount: ULong = 18446744073709551615UL
     const val minAssets = 1
-    const val Lp = 1
 
     const val coloredWallet = "colored"
     const val vanillaWallet = "vanilla"
