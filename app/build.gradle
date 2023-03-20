@@ -163,6 +163,9 @@ dependencies {
   // Bitcoindevkit
   implementation 'org.bitcoindevkit:bdk-android:0.27.1'
 
+  //Lighningdevkit
+  implementation 'org.lightningdevkit:ldk-garbagecollected: 0.0.114.0'
+
   // Github
   implementation 'com.github.lelloman:android-identicons:v11'
 
