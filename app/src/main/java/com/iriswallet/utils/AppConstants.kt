@@ -5,15 +5,23 @@ object AppConstants {
     const val appDBName = "bitguard_wallet_db"
     const val bdkDirName = ".bdk"
     const val rgbDirName = ".rgb"
+    const val rgbDownloadLogsFileName = "iris-logs-%s-%s.txt"
+    const val rgbDownloadMediaFileName = "media_%s"
     const val sharedPreferencesName = "shared_prefs"
     const val encryptedSharedPreferencesName = "secret_shared_prefs"
 
-    const val maxAssets = 100
+
+    const val maxAssets = 50
     const val satsForRgb = 9000UL
     const val rgbBlindDuration = 86400U
     const val rgbDefaultPrecision: UByte = 0U
-    const val issueMaxAmount: ULong = 18446744073709551615UL
-    const val minAssets = 1
+    const val uLongMaxAmount: ULong = 18446744073709551615UL
+    const val issueMaxAmount = uLongMaxAmount
+    const val maxMediaBytes = 5 * 1024 * 1024
+    const val defaultFeeRate = 1.5F
+    const val minFeeRate = 1.0
+    const val feeRateIntegerPlaces = 3
+    const val feeRateDecimalPlaces = 2
 
     const val coloredWallet = "colored"
     const val vanillaWallet = "vanilla"
@@ -23,11 +31,14 @@ object AppConstants {
     const val bitcoinAssetID = "BTC"
     const val bitcoinAssetName = "bitcoin"
 
-    const val proxyURL = "https://proxy.rgbtools.org"
+    const val stormProtocol = "storm:"
+    const val rgbHttpJsonRpcProtocol = "rgbhttpjsonrpc:"
+    const val proxyURL = "https://proxy.iriswallet.com/json-rpc"
+    const val proxyConsignmentEndpoint = rgbHttpJsonRpcProtocol + proxyURL
 
-    const val signetElectrumURL = ""
-    const val testnetElectrumURL = ""
-    const val mainnetElectrumURL = ""
+    const val signetElectrumURL = "ssl://electrum.iriswallet.com:50033"
+    const val testnetElectrumURL = "ssl://electrum.iriswallet.com:50013"
+    const val mainnetElectrumURL = "ssl://electrum.iriswallet.com:50003"
 
     const val signetExplorerURL = "https://mempool.space/signet/tx/"
     const val testnetExplorerURL = "https://mempool.space/testnet/tx/"
@@ -42,21 +53,21 @@ object AppConstants {
             "https://testnet-faucet.com/btc-testnet/"
         )
 
-    const val btcTestnetFaucetURL = "https://btc-faucet.rgbtools.org"
+    const val btcTestnetFaucetURL = "https://btc-faucet.iriswallet.com"
 
     val rgbTestnetFaucetURLs =
         listOf(
-            "https://rgb-faucet.rgbtools.org/testnet/",
+            "https://rgb-faucet.iriswallet.com/testnet/",
         )
     val rgbMainnetFaucetURLs =
         listOf(
-            "https://rgb-faucet.rgbtools.org/mainnet/",
+            "https://rgb-faucet.iriswallet.com/mainnet/",
         )
 
-    const val privacyPolicyURL = ""
+    const val privacyPolicyURL = "https://iriswallet.com/privacy_policy.html"
 
-    const val testnetTermsOfServiceURL = ""
-    const val mainnetTermsOfServiceURL = ""
+    const val testnetTermsOfServiceURL = "https://iriswallet.com/testnet/terms_of_service.html"
+    const val mainnetTermsOfServiceURL = "https://iriswallet.com/mainnet/terms_of_service.html"
 
     const val bdkTimeout = 5
     const val bdkRetry = 3
@@ -78,6 +89,14 @@ object AppConstants {
     const val veryLongTimeout = 120000L
     const val longTimeout = 40000L
     const val shortTimeout = 20000L
-}
 
-const val satsForWallet = 1000UL
+    const val BUNDLE_APP_ASSETS = "app_assets"
+    const val BUNDLE_ASSET_ID = "asset_id"
+    const val BUNDLE_TRANSFER_ID = "transfer_id"
+
+    const val DOWNLOAD_MEDIA_NOTIFICATION_CHANNEL = "IrisWallet.downloadMedia"
+    const val DOWNLOAD_MEDIA_NOTIFICATION_ID = 134
+
+    const val DOWNLOAD_LOGS_NOTIFICATION_CHANNEL = "IrisWallet.downloadLogs"
+    const val DOWNLOAD_LOGS_NOTIFICATION_ID = 135
+}
