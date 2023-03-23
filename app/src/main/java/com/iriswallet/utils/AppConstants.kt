@@ -36,9 +36,9 @@ object AppConstants {
     const val proxyURL = "https://proxy.iriswallet.com/json-rpc"
     const val proxyConsignmentEndpoint = rgbHttpJsonRpcProtocol + proxyURL
 
-    const val signetElectrumURL = "ssl://electrum.iriswallet.com:50033"
-    const val testnetElectrumURL = "ssl://electrum.iriswallet.com:50013"
-    const val mainnetElectrumURL = "ssl://electrum.iriswallet.com:50003"
+    const val signetElectrumURL = "ssl://192.168.0.124:50002"
+    const val testnetElectrumURL = "ssl://192.168.0.124:50002"
+    const val mainnetElectrumURL = "ssl://192.168.0.124:50002"
 
     const val signetExplorerURL = "https://mempool.space/signet/tx/"
     const val testnetExplorerURL = "https://mempool.space/testnet/tx/"
